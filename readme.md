@@ -15,7 +15,7 @@ There are Api call limits:
 ## Installing
 Project comes with base docker-compose and preseeded sqlite db with 1 user with set api_token.
 In project dir run command
-<pre><code>docker-compose up -d<code></pre>
+<pre><code>docker-compose up -d</code></pre>
 
 And project should be available ion browser at http://localhost
 
