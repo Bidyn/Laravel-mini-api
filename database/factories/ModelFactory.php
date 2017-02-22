@@ -22,3 +22,9 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
         'remember_token' => str_random(10),
     ];
 });
+$factory->state(App\User::class, 'with_key', function (Faker\Generator $faker) {
+
+    return [
+        'api_token' => 'secret'
+    ];
+});
